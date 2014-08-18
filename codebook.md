@@ -115,12 +115,15 @@ THE TIDYDATA.TXT WAS CREATED FROM THE ABOVE DATASET BY TAKING THE FOLLOWING STEP
 DATA DICTIONARY - TIDY DATA
 
 subject
+	
 	Subject Id
 		
 activity_label
+	
 	Activity label
 
 activity
+	
 	Activity Id
 	
 The numbers at the beginning of each of the following variables is the feature number (out of 561 features in the original data set). In this Tidy dataset we have applied filters so that only those variables for the mean and standard deviation are included. The numbers are not included in the Tidy dataset. They are here only for reference.
