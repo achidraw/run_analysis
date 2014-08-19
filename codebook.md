@@ -5,7 +5,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 THIS SECTION DESCRIBES THE ORIGINAL DATASET
 
-Feature Selection 
+ 
+
+FEATURE SELECTION
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -114,20 +116,22 @@ THE TIDYDATA.TXT WAS CREATED FROM THE ABOVE DATASET BY TAKING THE FOLLOWING STEP
 
 DATA DICTIONARY - TIDY DATA
 
-subject
+subject 	Integer
 	
 	Subject Id
 		
-activity_label
-	
-	Activity label
-
-activity
+activity	Integer
 	
 	Activity Id
 	
+activity_label	Character
+	
+	Activity label
+
 The numbers at the beginning of each of the following variables is the feature number (out of 561 features in the original data set). In this Tidy dataset we have applied filters so that only those variables for the mean and standard deviation are included. The numbers are not included in the Tidy dataset. They are here only for reference.
  
+All these columns are numeric
+
 1 tBodyAcc-mean()-X
 
 2 tBodyAcc-mean()-Y
