@@ -11,16 +11,23 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-You should create one R script called run_analysis.R that does the following. 
+There is one R script called run_analysis.R that does the following:
+
 1. Merges the training and the test sets to create one data set.
+
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+
 3. Uses descriptive activity names to name the activities in the data set
+
 4. Appropriately labels the data set with descriptive variable names. 
+
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 The final output is a tidydata.txt file which has the result of the last item
 
-The Codebook.md describes the output file including the original data and what was filtered.
+
+There is only one function in this file called run_analysis() which needs no parameters. All the required data files are to be copied in the test and train directories under the working directory where this program will be run. 
 The run_analysis.R has comments that describe the code written to perform the tasks listed above.
+The Codebook.md describes the output file including the original data and what was filtered.
 
 
